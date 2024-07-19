@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        box-sizing: border-box;        
+    }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .box{
+            width: 350px;
+            height: 400px;
+            box-shadow: 0px 0px 10px black;
+            overflow: hidden;
+            padding: 5px;
+            
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .content{
+            /* border: 2px solid black; */
+            padding:10px ;
+            font-family: sans-serif;
+            background-color: wheat;
+            text-align: justify;
+            transition:all 1s;
+
+
+        }
+        h1,h2,p{
+            margin:5px 0px;
+        }
+        .box:hover .content{
+            transform: translatey(-235px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="kiki, lee su yeon.png" alt="">
+        <div class="content">
+            <h1>Title:Car</h1>
+            <h2>Price:500$</h2>
+            <p>Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aliquam esse rerum enim odit quis, unde atque quibusdam architecto. Aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, nulla aut velit est ex nam consectetur facilis itaque tempore error.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
