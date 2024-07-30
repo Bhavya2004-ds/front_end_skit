@@ -448,10 +448,14 @@ footer{
    
    
 }
-@media(max-width:1470px){
+
+@media(max-width:1441px){
     footer{
         padding:100x 100px ;
     }
+}
+@media(max-width:1470px){
+   
     .top{
         padding:10px 100px;
     }
